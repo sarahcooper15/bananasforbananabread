@@ -1068,12 +1068,14 @@ section { padding: 72px 0; }
 .footer-disclaimer { font-size: 0.78rem; color: rgba(255,253,248,0.35); max-width: 480px; margin: 0 auto; line-height: 1.5; }
 
 /* ── Animations ── */
-.fade-in {
+/* Only hide .fade-in elements when JS is confirmed active (class added by main.js).
+   This ensures content is always visible if JS fails to load or execute. */
+.js-enabled .fade-in {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
 }
-.fade-in.visible { opacity: 1; transform: none; }
+.js-enabled .fade-in.visible { opacity: 1; transform: none; }
 
 /* ════════════════════════════════════════════
    RESPONSIVE

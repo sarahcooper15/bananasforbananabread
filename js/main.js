@@ -2,6 +2,10 @@
    The Cooper Kitchen — Shared JS (nav + footer injection)
    ══════════════════════════════════════════════════════ */
 
+// Mark JS as active so CSS can safely hide .fade-in elements initially.
+// Without this class, all .fade-in content remains fully visible (no-JS fallback).
+document.documentElement.classList.add('js-enabled');
+
 const LOGO_SVG = `
 <svg class="logo-icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
   <path d="M8 3v9M6 3v6M10 3v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
