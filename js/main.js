@@ -13,9 +13,9 @@ const LOGO_SVG = `
 const NAV_HTML = `
 <nav class="site-nav" role="navigation" aria-label="Main navigation">
   <div class="nav-inner">
-    <a href="index.html" class="logo" aria-label="The Cooper Kitchen – Home">
+    <a href="index.html" class="logo" aria-label="Cooper Kitchen – Home">
       ${LOGO_SVG}
-      <span class="logo-text">The Cooper <em>Kitchen</em></span>
+      <span class="logo-text">Cooper <em>Kitchen</em></span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -34,7 +34,7 @@ const FOOTER_HTML = `
   <div class="footer-inner">
     <div class="footer-brand">
       ${LOGO_SVG}
-      <span>The Cooper Kitchen</span>
+      <span>Cooper Kitchen</span>
     </div>
     <p class="footer-tagline">Family recipes. Made with love. Passed down forever.</p>
     <nav class="footer-nav" aria-label="Footer navigation">
@@ -43,7 +43,7 @@ const FOOTER_HTML = `
       <a href="our-favorite-recipes.html">Our Favorite Recipes</a>
       <a href="recommended-products.html">Recommended Products</a>
     </nav>
-    <p class="footer-copy">© ${new Date().getFullYear()} The Cooper Kitchen &nbsp;·&nbsp; Made with love for family</p>
+    <p class="footer-copy">© ${new Date().getFullYear()} Cooper Kitchen &nbsp;·&nbsp; Made with love for family</p>
     <p class="footer-disclaimer">This site may contain affiliate links. We may earn a small commission at no extra cost to you — it helps keep the kitchen running!</p>
   </div>
 </footer>`;
