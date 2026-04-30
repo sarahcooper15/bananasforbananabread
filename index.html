@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO & AEO Meta ── -->
+  <title>The Cooper Kitchen — Family Recipes Passed Down Through Generations</title>
+  <meta name="description" content="The Cooper Kitchen is a living family cookbook — time-honored recipes passed down through generations, from JJ's banana nut bread to Momma's blueberry French toast. Made with love, meant to be shared." />
+  <meta name="keywords" content="Cooper family recipes, banana nut bread, blueberry french toast, sunday biscuits, family cookbook, southern recipes, homemade recipes, heirloom recipes" />
+  <link rel="canonical" href="https://www.thecooperkitchen.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="The Cooper Family" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://www.thecooperkitchen.com/" />
+  <meta property="og:title"       content="The Cooper Kitchen — Family Recipes Passed Down Through Generations" />
+  <meta property="og:description" content="A living family cookbook — time-honored recipes made with love and meant to be shared." />
+  <meta property="og:site_name"   content="The Cooper Kitchen" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="The Cooper Kitchen" />
+  <meta name="twitter:description" content="Family recipes, passed down through generations." />
+
+  <!-- ── Schema.org: WebSite ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The Cooper Kitchen",
+    "description": "A living family cookbook — time-honored recipes passed down through generations.",
+    "url": "https://www.thecooperkitchen.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.thecooperkitchen.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ── Schema.org: Organization ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "The Cooper Kitchen",
+    "url": "https://www.thecooperkitchen.com/",
+    "description": "A family recipe website sharing heirloom recipes from the Cooper family of Athens, Alabama."
+  }
+  </script>
+
+  <!-- ── Schema.org: ItemList (recipe collection) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Cooper Family Recipes",
+    "description": "A curated collection of beloved heirloom recipes from the Cooper family.",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "JJ's Banana Nut Bread",        "url": "https://www.thecooperkitchen.com/recipe-jjs-banana-bread.html" },
+      { "@type": "ListItem", "position": 2, "name": "Momma's Blueberry French Toast","url": "https://www.thecooperkitchen.com/recipe-blueberry-french-toast.html" },
+      { "@type": "ListItem", "position": 3, "name": "JJ's Sunday Biscuits",          "url": "https://www.thecooperkitchen.com/recipe-jjs-sunday-biscuits.html" },
+      { "@type": "ListItem", "position": 4, "name": "Momma's Christmas Chex Mix",    "url": "https://www.thecooperkitchen.com/recipe-christmas-chex-mix.html" },
+      { "@type": "ListItem", "position": 5, "name": "Momma's Tomato Tart",           "url": "https://www.thecooperkitchen.com/recipe-tomato-tart.html" },
+      { "@type": "ListItem", "position": 6, "name": "Momma's Squash Casserole",      "url": "https://www.thecooperkitchen.com/recipe-squash-casserole.html" },
+      { "@type": "ListItem", "position": 7, "name": "Momma's Almond Coffee Cake",    "url": "https://www.thecooperkitchen.com/recipe-almond-coffee-cake.html" }
+    ]
+  }
+  </script>
+
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="home">
+
+  <!-- NAV injected by main.js -->
+
+  <!-- ════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════ -->
+  <header class="hero" role="banner">
+    <div class="hero-inner">
+      <div class="hero-badge">Est. in Athens, Alabama</div>
+      <h1>Long-time recipes,<br/><em>by family for family.</em></h1>
+      <p class="hero-sub">
+        A living cookbook built for our growing family — bringing generations of beloved recipes to your kitchen, one story at a time.
+      </p>
+      <div class="hero-actions">
+        <a href="cooper-family-recipes.html" class="btn btn--primary">Browse All Recipes</a>
+        <a href="#recipes" class="btn btn--ghost">See What's Cooking ↓</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">Scroll</div>
+  </header>
+
+  <!-- ════════════════════════════════════════════
+       SECTION 0: DISCOVER OUR PAGES
+  ════════════════════════════════════════════ -->
+  <section class="page-nav-cards" aria-labelledby="discover-heading">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">What You'll Find Here</span>
+        <h2 id="discover-heading">Everything in the Kitchen</h2>
+        <p>Three sections, one family — explore recipes passed down through generations, our personal favorites, and the tools that bring it all together.</p>
+      </div>
+      <div class="page-nav-grid">
+
+        <a href="cooper-family-recipes.html" class="page-nav-card fade-in" aria-label="Go to Cooper Family Recipes">
+          <div class="page-nav-card__icon" aria-hidden="true">📖</div>
+          <h3>Cooper Family Recipes</h3>
+          <p>The recipes that made us who we are — straight from handwritten cards, beloved community cookbooks, and the kitchens that shaped our family.</p>
+          <span class="page-nav-card__link">Explore recipes →</span>
+        </a>
+
+        <a href="our-favorite-recipes.html" class="page-nav-card fade-in" aria-label="Go to Our Favorite Recipes">
+          <div class="page-nav-card__icon" aria-hidden="true">⭐</div>
+          <h3>Our Favorite Recipes</h3>
+          <p>Beyond the family vault — recipes we've discovered, tested, fallen in love with, and can't stop making. Tried, trusted, and highly recommended.</p>
+          <span class="page-nav-card__link">See our favorites →</span>
+        </a>
+
+        <a href="recommended-products.html" class="page-nav-card fade-in" aria-label="Go to Recommended Products">
+          <div class="page-nav-card__icon" aria-hidden="true">🍳</div>
+          <h3>Recommended Products</h3>
+          <p>The tools, pantry staples, and kitchen essentials that make every recipe better. Gear we actually use and genuinely love.</p>
+          <span class="page-nav-card__link">Shop the kitchen →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       SECTION 2: RECIPES
+  ════════════════════════════════════════════ -->
+  <section class="recipes-section" id="recipes" aria-labelledby="recipes-heading">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="eyebrow">The Recipes</span>
+        <h2 id="recipes-heading">Start Here</h2>
+        <p>Seven recipes. Each one is a piece of family history — made to be cooked, shared, and passed on.</p>
+      </div>
+
+      <!-- Featured card -->
+      <div class="recipes-featured fade-in">
+        <a href="recipe-jjs-banana-bread.html" class="recipe-card--featured" aria-label="View JJ's Banana Nut Bread recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Loaf -->
+              <rect x="30" y="80" width="160" height="60" rx="12" fill="#8B5E2A"/>
+              <path d="M30 100 Q110 62 190 100" fill="#A0702E"/>
+              <!-- Banana -->
+              <path d="M60 55 Q80 30 130 38 Q155 42 150 62 Q145 78 125 80 Q95 84 72 72 Q50 60 60 55Z" fill="#F5D54A" stroke="#C8A820" stroke-width="1.5"/>
+              <!-- Slice cuts -->
+              <line x1="90"  y1="82" x2="90"  y2="140" stroke="#6B4518" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+              <line x1="130" y1="80" x2="130" y2="140" stroke="#6B4518" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+              <!-- Nut dots -->
+              <circle cx="58"  cy="115" r="3" fill="#4A2B10"/>
+              <circle cx="75"  cy="105" r="3" fill="#4A2B10"/>
+              <circle cx="110" cy="112" r="3" fill="#4A2B10"/>
+              <circle cx="150" cy="108" r="3" fill="#4A2B10"/>
+              <circle cx="170" cy="120" r="3" fill="#4A2B10"/>
+              <!-- Steam -->
+              <path d="M95  65 Q98  59 95  53 Q92  47 95  41" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+              <path d="M110 60 Q113 54 110 48 Q107 42 110 36" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+              <path d="M125 65 Q128 59 125 53 Q122 47 125 41" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags">
+              <span class="tag">Featured</span>
+              <span class="tag">Cooper Family</span>
+              <span class="tag">JJ's Recipe</span>
+            </div>
+            <h3>JJ's Banana Nut Bread</h3>
+            <p>Jackie Johnson's beloved banana nut bread — a cherished heirloom recipe from Athens, Alabama, published in the local community cookbook and passed down through generations. Easy. Good. Don't over cool.</p>
+            <div class="card-meta">
+              <span>⏱ 1 hr 15 min</span>
+              <span>🍞 2 loaves</span>
+              <span>🏡 Athens, AL</span>
+            </div>
+            <span class="card-link">View full recipe →</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Recipe grid (6 remaining) -->
+      <div class="recipes-grid">
+
+        <a href="recipe-blueberry-french-toast.html" class="recipe-card fade-in" aria-label="View Momma's Blueberry French Toast recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Stack of toast -->
+              <rect x="20" y="75" width="100" height="22" rx="6" fill="#D4A855"/>
+              <rect x="20" y="55" width="100" height="24" rx="6" fill="#E8C07A"/>
+              <rect x="22" y="37" width="96" height="22" rx="6" fill="#F5D890"/>
+              <!-- Blueberries -->
+              <circle cx="45" cy="32" r="7" fill="#5A4A8A"/>
+              <circle cx="62" cy="28" r="6" fill="#6B5A9A"/>
+              <circle cx="78" cy="32" r="7" fill="#4A3A7A"/>
+              <circle cx="94" cy="29" r="6" fill="#5A4A8A"/>
+              <circle cx="110" cy="33" r="5" fill="#6B5A9A"/>
+              <!-- Shine on berries -->
+              <circle cx="43" cy="30" r="2" fill="white" opacity="0.4"/>
+              <circle cx="60" cy="26" r="2" fill="white" opacity="0.4"/>
+              <circle cx="76" cy="30" r="2" fill="white" opacity="0.4"/>
+              <!-- Syrup drizzle -->
+              <path d="M55 57 Q52 65 55 72" stroke="#C8922A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+              <path d="M85 55 Q88 63 85 71" stroke="#C8922A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+              <!-- Powdered sugar dots -->
+              <circle cx="38" cy="40" r="2" fill="white" opacity="0.7"/>
+              <circle cx="60" cy="38" r="2" fill="white" opacity="0.7"/>
+              <circle cx="85" cy="40" r="2" fill="white" opacity="0.7"/>
+              <circle cx="108" cy="38" r="2" fill="white" opacity="0.7"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Momma's Recipe</span><span class="tag">Breakfast</span></div>
+            <h3>Momma's Blueberry French Toast</h3>
+            <p>Thick-cut brioche soaked in a vanilla-cinnamon custard, topped with a warm blueberry maple syrup. A weekend morning tradition.</p>
+            <div class="card-meta"><span>⏱ 25 min</span><span>🍽 4 servings</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+        <a href="recipe-jjs-sunday-biscuits.html" class="recipe-card fade-in" aria-label="View JJ's Sunday Biscuits recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Pan -->
+              <rect x="10" y="90" width="120" height="12" rx="4" fill="#B0A090" stroke="#8B8070" stroke-width="1.5"/>
+              <!-- Three biscuits -->
+              <ellipse cx="35"  cy="82" rx="22" ry="14" fill="#C8A060" stroke="#A07840" stroke-width="1.5"/>
+              <ellipse cx="35"  cy="78" rx="22" ry="10" fill="#E8C880"/>
+              <ellipse cx="75"  cy="82" rx="22" ry="14" fill="#C8A060" stroke="#A07840" stroke-width="1.5"/>
+              <ellipse cx="75"  cy="78" rx="22" ry="10" fill="#E8C880"/>
+              <ellipse cx="114" cy="82" rx="22" ry="14" fill="#C8A060" stroke="#A07840" stroke-width="1.5"/>
+              <ellipse cx="114" cy="78" rx="22" ry="10" fill="#E8C880"/>
+              <!-- Steam -->
+              <path d="M35  62 Q38 56 35 50" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+              <path d="M75  60 Q78 54 75 48" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+              <path d="M114 62 Q117 56 114 50" stroke="#ccc" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Cooper Family</span><span class="tag">JJ's Recipe</span><span class="tag">Breakfast</span></div>
+            <h3>JJ's Sunday Biscuits</h3>
+            <p>Tall, flaky, buttery southern biscuits — the kind that make Sunday morning feel like a holiday. JJ's secret is cold butter and a gentle hand.</p>
+            <div class="card-meta"><span>⏱ 30 min</span><span>🍽 12 biscuits</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+        <a href="recipe-christmas-chex-mix.html" class="recipe-card fade-in" aria-label="View Momma's Christmas Chex Mix recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Bowl -->
+              <path d="M20 55 Q20 100 70 100 Q120 100 120 55 Z" fill="#FFF8F0" stroke="#B07040" stroke-width="2"/>
+              <ellipse cx="70" cy="55" rx="50" ry="12" fill="#FFF8F0" stroke="#B07040" stroke-width="2"/>
+              <!-- Mix contents -->
+              <rect x="38" y="62" width="14" height="14" rx="2" fill="#C8A060"/>
+              <rect x="55" y="58" width="12" height="12" rx="2" fill="#A08050"/>
+              <rect x="72" y="64" width="14" height="10" rx="2" fill="#C8A060"/>
+              <rect x="88" y="60" width="12" height="13" rx="2" fill="#A08050"/>
+              <!-- Pretzels (simplified) -->
+              <circle cx="48" cy="82" r="7" fill="none" stroke="#C8A060" stroke-width="3"/>
+              <circle cx="78" cy="80" r="7" fill="none" stroke="#A08050" stroke-width="3"/>
+              <circle cx="95" cy="76" r="6" fill="none" stroke="#C8A060" stroke-width="3"/>
+              <!-- Stars for "Christmas" -->
+              <text x="50" y="45" font-size="14" fill="#C8922A">✦</text>
+              <text x="80" y="40" font-size="10" fill="#E8C07A">✦</text>
+              <text x="30" y="48" font-size="9" fill="#C8922A">✦</text>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Momma's Recipe</span><span class="tag">Holiday</span><span class="tag">Snack</span></div>
+            <h3>Momma's Christmas Chex Mix</h3>
+            <p>The holiday snack mix our family has gifted for years — slow-baked to perfection with a savory butter blend. A tin of this is the best gift you can give.</p>
+            <div class="card-meta"><span>⏱ 1 hr 15 min</span><span>🎄 Makes a big batch</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+        <a href="recipe-tomato-tart.html" class="recipe-card fade-in" aria-label="View Momma's Tomato Tart recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Tart crust -->
+              <ellipse cx="70" cy="85" rx="55" ry="12" fill="#D4A853" opacity="0.3"/>
+              <ellipse cx="70" cy="80" rx="55" ry="12" fill="#E8C07A" stroke="#C8A040" stroke-width="2"/>
+              <path d="M15 80 Q15 48 70 48 Q125 48 125 80" fill="#F5E8D0" stroke="#C8A040" stroke-width="2"/>
+              <!-- Tomato slices -->
+              <circle cx="50" cy="67" r="18" fill="#E84040" opacity="0.85" stroke="#C03030" stroke-width="1"/>
+              <circle cx="90" cy="65" r="18" fill="#E84040" opacity="0.85" stroke="#C03030" stroke-width="1"/>
+              <circle cx="70" cy="72" r="18" fill="#CC2020" opacity="0.75" stroke="#A01010" stroke-width="1"/>
+              <!-- Seeds on tomatoes -->
+              <ellipse cx="46" cy="65" rx="3" ry="4" fill="#F87070" opacity="0.5" transform="rotate(-20 46 65)"/>
+              <ellipse cx="56" cy="62" rx="3" ry="4" fill="#F87070" opacity="0.5" transform="rotate(15 56 62)"/>
+              <!-- Basil leaves -->
+              <path d="M70 55 Q75 48 80 52 Q75 58 70 55Z" fill="#4A8040"/>
+              <path d="M58 56 Q63 50 67 54 Q62 59 58 56Z" fill="#4A8040"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Momma's Recipe</span><span class="tag green-tag">Healthy</span><span class="tag">Dinner</span></div>
+            <h3>Momma's Signature Tomato Tart</h3>
+            <p>Heirloom tomatoes on a golden pastry base with Dijon and fresh mozzarella. Momma's proof that elegant and easy are not mutually exclusive.</p>
+            <div class="card-meta"><span>⏱ 45 min</span><span>🍽 6 servings</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+        <a href="recipe-squash-casserole.html" class="recipe-card fade-in" aria-label="View Momma's Squash Casserole recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Dish shadow -->
+              <ellipse cx="70" cy="106" rx="58" ry="7" fill="#D4A853" opacity="0.2"/>
+              <!-- Baking dish -->
+              <path d="M12 70 L12 96 Q12 106 70 106 Q128 106 128 96 L128 70 Z" fill="#E8D8C0" stroke="#B07040" stroke-width="2"/>
+              <rect x="8" y="64" width="124" height="12" rx="4" fill="#D4B890" stroke="#B07040" stroke-width="1.5"/>
+              <!-- Handles -->
+              <rect x="-2" y="67" width="14" height="14" rx="4" fill="#C4A870" stroke="#B07040" stroke-width="1.5"/>
+              <rect x="128" y="67" width="14" height="14" rx="4" fill="#C4A870" stroke="#B07040" stroke-width="1.5"/>
+              <!-- Casserole filling (squash) -->
+              <ellipse cx="70" cy="74" rx="52" ry="10" fill="#F0C840" opacity="0.6"/>
+              <!-- Cracker topping -->
+              <rect x="22" y="65" width="14" height="8" rx="2" fill="#D4A853" opacity="0.8"/>
+              <rect x="40" y="63" width="14" height="8" rx="2" fill="#C8922A" opacity="0.8"/>
+              <rect x="58" y="65" width="14" height="8" rx="2" fill="#D4A853" opacity="0.8"/>
+              <rect x="76" y="63" width="14" height="8" rx="2" fill="#C8922A" opacity="0.8"/>
+              <rect x="94" y="65" width="14" height="8" rx="2" fill="#D4A853" opacity="0.8"/>
+              <rect x="112" y="63" width="14" height="8" rx="2" fill="#C8922A" opacity="0.8"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Momma's Recipe</span><span class="tag green-tag">Healthy</span><span class="tag">Side Dish</span></div>
+            <h3>Momma's Squash Casserole</h3>
+            <p>A lighter take on the southern classic — creamy yellow squash baked to golden perfection with a buttery cracker topping. Comfort food, done right.</p>
+            <div class="card-meta"><span>⏱ 50 min</span><span>🍽 8 servings</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+        <a href="recipe-almond-coffee-cake.html" class="recipe-card fade-in" aria-label="View Momma's Almond Coffee Cake recipe">
+          <div class="card-illustration">
+            <svg viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Cake slice shadow -->
+              <ellipse cx="70" cy="106" rx="52" ry="7" fill="#D4A853" opacity="0.2"/>
+              <!-- Full cake (circle) -->
+              <path d="M20 80 Q20 42 70 42 Q120 42 120 80 L120 98 Q120 108 70 108 Q20 108 20 98 Z" fill="#E8C880" stroke="#C8A040" stroke-width="2"/>
+              <!-- Top streusel layer -->
+              <ellipse cx="70" cy="80" rx="50" ry="10" fill="#C8922A" opacity="0.5"/>
+              <ellipse cx="70" cy="43" rx="50" ry="11" fill="#D4A853" stroke="#C8A040" stroke-width="2"/>
+              <ellipse cx="70" cy="43" rx="48" ry="9" fill="#E8C060"/>
+              <!-- Streusel dots -->
+              <circle cx="48" cy="43" r="3" fill="#A07030"/>
+              <circle cx="62" cy="40" r="3" fill="#A07030"/>
+              <circle cx="78" cy="42" r="3" fill="#A07030"/>
+              <circle cx="92" cy="41" r="3" fill="#A07030"/>
+              <!-- Almond slivers -->
+              <ellipse cx="55" cy="44" rx="7" ry="2.5" fill="#E8D0A0" transform="rotate(-20 55 44)"/>
+              <ellipse cx="70" cy="38" rx="7" ry="2.5" fill="#E8D0A0" transform="rotate(10 70 38)"/>
+              <ellipse cx="85" cy="44" rx="7" ry="2.5" fill="#E8D0A0" transform="rotate(-15 85 44)"/>
+              <!-- Slice cut line -->
+              <line x1="70" y1="43" x2="70" y2="108" stroke="#A07030" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+              <line x1="70" y1="43" x2="30" y2="90" stroke="#A07030" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-tags"><span class="tag">Momma's Recipe</span><span class="tag">Breakfast</span><span class="tag">Baking</span></div>
+            <h3>Momma's Perfect Almond Coffee Cake</h3>
+            <p>Tender, moist cake swirled with almond streusel and finished with toasted almond slivers. Perfect with your first cup of coffee on a slow morning.</p>
+            <div class="card-meta"><span>⏱ 1 hr 15 min</span><span>🍽 12 servings</span></div>
+            <span class="card-link">View recipe →</span>
+          </div>
+        </a>
+
+      </div><!-- /recipes-grid -->
+
+      <div style="text-align:center; margin-top:40px;" class="fade-in">
+        <a href="cooper-family-recipes.html" class="btn btn--outline">View All Family Recipes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       SECTION 3: SHOP
+  ════════════════════════════════════════════ -->
+  <section class="shop-banner" aria-labelledby="shop-heading">
+    <!-- Decorative kitchen SVG background -->
+    <div class="shop-banner__bg" aria-hidden="true">
+      <svg viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <!-- Counter / shelf lines -->
+        <rect x="0" y="280" width="1200" height="160" fill="#3A200A"/>
+        <rect x="0" y="270" width="1200" height="14" fill="#5A3010"/>
+        <!-- Hanging pots -->
+        <rect x="80" y="60" width="6" height="80" fill="#888"/>
+        <path d="M50 140 L50 200 Q50 230 95 230 Q140 230 140 200 L140 140 Z" fill="#666" stroke="#555" stroke-width="2"/>
+        <rect x="44" y="134" width="102" height="12" rx="5" fill="#777"/>
+        <path d="M95 140 L95 155" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+
+        <rect x="240" y="40" width="6" height="100" fill="#888"/>
+        <path d="M208 140 L208 195 Q208 222 253 222 Q298 222 298 195 L298 140 Z" fill="#777" stroke="#555" stroke-width="2"/>
+        <rect x="202" y="133" width="102" height="12" rx="5" fill="#888"/>
+
+        <!-- KitchenAid Stand Mixer -->
+        <rect x="900" y="168" width="110" height="110" rx="8" fill="#4A4A5A" opacity="0.9"/>
+        <rect x="918" y="150" width="74" height="28" rx="8" fill="#5A5A6A"/>
+        <circle cx="955" cy="164" r="22" fill="#3A3A4A" stroke="#6A6A7A" stroke-width="2"/>
+        <rect x="920" y="240" width="70" height="38" rx="6" fill="#3A3A4A"/>
+        <circle cx="940" cy="164" r="5" fill="#C8922A" opacity="0.8"/>
+        <path d="M955 186 L955 240" stroke="#6A6A7A" stroke-width="4" stroke-linecap="round"/>
+        <rect x="930" y="238" width="50" height="16" rx="8" fill="#888" opacity="0.6"/>
+
+        <!-- Cutting board -->
+        <rect x="700" y="260" width="180" height="10" rx="3" fill="#8B6040" opacity="0.7"/>
+
+        <!-- Herb pots -->
+        <rect x="1050" y="248" width="36" height="32" rx="4" fill="#C8922A" opacity="0.7"/>
+        <ellipse cx="1068" cy="248" rx="20" ry="6" fill="#A07020" opacity="0.6"/>
+        <path d="M1068 240 Q1058 220 1060 200" stroke="#4A8040" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+        <path d="M1068 235 Q1078 215 1076 195" stroke="#5A9050" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+
+        <rect x="1100" y="252" width="36" height="28" rx="4" fill="#8B7060" opacity="0.6"/>
+        <ellipse cx="1118" cy="252" rx="20" ry="5" fill="#6B5040" opacity="0.6"/>
+        <path d="M1118 244 Q1108 225 1112 205" stroke="#3A7030" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+        <path d="M1118 240 Q1126 220 1122 202" stroke="#4A8040" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+        <!-- Window light suggestion -->
+        <rect x="400" y="0" width="200" height="260" fill="#FFF8E0" opacity="0.04"/>
+        <rect x="490" y="0" width="6" height="260" fill="#FFF8E0" opacity="0.05"/>
+        <rect x="400" y="125" width="200" height="6" fill="#FFF8E0" opacity="0.05"/>
+      </svg>
+    </div>
+
+    <div class="shop-banner__content">
+      <div class="shop-banner__text fade-in">
+        <span class="eyebrow">The Cooper Kitchen Shop</span>
+        <h2 id="shop-heading">Shop the kitchen essentials that bring these recipes to life.</h2>
+        <p>The right tools make all the difference. Browse the gear we actually use — from stand mixers to cast iron — to recreate these recipes with confidence.</p>
+        <a href="recommended-products.html" class="btn btn--primary">Shop Our Recommendations</a>
+      </div>
+      <div class="shop-banner__kitchen" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       SECTION 4: ABOUT
+  ════════════════════════════════════════════ -->
+  <section class="about-section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Photo placeholder -->
+        <div class="about-photo fade-in" role="img" aria-label="Cooper family photo placeholder">
+          <div class="about-photo__placeholder">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="28" cy="20" r="12" stroke="rgba(255,255,255,0.5)" stroke-width="2.5"/>
+              <path d="M6 50 Q6 34 28 34 Q50 34 50 50" stroke="rgba(255,255,255,0.5)" stroke-width="2.5" fill="none"/>
+            </svg>
+            <p>Family Photo<br/>Goes Here</p>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-content fade-in">
+          <span class="eyebrow">About Us</span>
+          <h2 id="about-heading">Built for family. Open to everyone.</h2>
+          <p>
+            This website is, first and foremost, for our growing family. Food has always been the center of our gatherings —
+            the reason we linger at the table a little longer, the thread that connects who we were with who we are becoming.
+          </p>
+          <p>
+            Recipes are meant to be shared, and this space gives us a way to carry forward generations of beloved dishes so
+            that every new member of the family — no matter where they are — can find their way into our kitchen. Because good
+            food and good family are inseparable, and the best meals are the ones made together, surrounded by the people you love.
+          </p>
+          <p>
+            We hope these recipes bring as much warmth to your kitchen as they have to ours.
+          </p>
+          <a href="cooper-family-recipes.html" class="btn btn--outline">Explore the Recipes</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER injected by main.js -->
+
+  <script src="js/main.js"></script>
+</body>
+</html>

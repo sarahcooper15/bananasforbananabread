@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Favorite Recipes — The Cooper Kitchen</title>
+  <meta name="description" content="Beyond the family vault — recipes the Cooper family has discovered, tested, and fallen in love with. Tried, trusted, and highly recommended." />
+  <link rel="canonical" href="https://www.thecooperkitchen.com/our-favorite-recipes.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type"  content="website" />
+  <meta property="og:title" content="Our Favorite Recipes — The Cooper Kitchen" />
+  <meta property="og:description" content="Recipes we've discovered, tested, and can't stop making." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .coming-soon-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      border: 2px dashed rgba(200,146,42,0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 280px;
+      padding: 36px 28px;
+      text-align: center;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+    .coming-soon-card:hover { border-color: var(--gold); }
+    .coming-soon-card .icon { font-size: 2rem; }
+    .coming-soon-card h3 { font-size: 1.1rem; color: var(--brown-dark); }
+    .coming-soon-card p { font-size: 0.85rem; color: var(--text-light); }
+    .intro-banner {
+      background: var(--white);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 28px 32px;
+      margin: 0 0 48px;
+      max-width: 680px;
+    }
+    .intro-banner h3 { font-size: 1.2rem; color: var(--brown-dark); margin-bottom: 8px; }
+    .intro-banner p  { font-size: 0.95rem; color: var(--text-mid); line-height: 1.75; }
+  </style>
+</head>
+<body data-page="favorites">
+
+  <!-- NAV injected by main.js -->
+
+  <header class="listing-hero" style="background: linear-gradient(150deg, #2A1808 0%, #5A3820 60%, #8B5A30 100%);">
+    <div class="container--narrow">
+      <span class="eyebrow" style="color:var(--gold-light);">Beyond the Family Vault</span>
+      <h1>Our Favorite Recipes</h1>
+      <p>Recipes we've discovered along the way — tested in our own kitchen, loved by the whole family, and added to the permanent rotation.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div style="padding-top: 52px;" class="fade-in">
+        <div class="intro-banner">
+          <h3>This collection is growing.</h3>
+          <p>We're always trying new recipes and adding the ones that earn a permanent spot in our rotation.
+             Check back often — new favorites get added as we discover them. Know a recipe we'd love?
+             We'd love to hear from you.</p>
+        </div>
+      </div>
+
+      <div class="listing-grid">
+
+        <!-- Placeholder cards — replace with real recipes as you discover them -->
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🥗</div>
+          <h3>Coming Soon</h3>
+          <p>Our next favorite recipe is on its way. Check back soon!</p>
+        </div>
+
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🍝</div>
+          <h3>Coming Soon</h3>
+          <p>We're testing recipes now. Only the best ones make the list.</p>
+        </div>
+
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🍰</div>
+          <h3>Coming Soon</h3>
+          <p>More favorites added as we discover and test them.</p>
+        </div>
+
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🥘</div>
+          <h3>Coming Soon</h3>
+          <p>Family-tested, Cooper-approved. Stay tuned.</p>
+        </div>
+
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🍲</div>
+          <h3>Coming Soon</h3>
+          <p>Good things take time — and testing.</p>
+        </div>
+
+        <div class="coming-soon-card fade-in">
+          <div class="icon">🥐</div>
+          <h3>Coming Soon</h3>
+          <p>Our favorite recipes, curated just for family.</p>
+        </div>
+
+      </div>
+
+      <!-- CTA back to family recipes -->
+      <div style="text-align:center; padding: 16px 0 64px;" class="fade-in">
+        <p style="color:var(--text-light); margin-bottom:20px; font-size:0.95rem;">While you wait, explore our family heirlooms.</p>
+        <a href="cooper-family-recipes.html" class="btn btn--primary">Browse Cooper Family Recipes</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER injected by main.js -->
+  <script src="js/main.js"></script>
+</body>
+</html>
